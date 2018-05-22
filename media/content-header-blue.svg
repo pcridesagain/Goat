@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="686px" height="316px" viewBox="0 0 686 316" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>content header blue</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="34.1639365%" y1="-3.75%" x2="54.0536794%" y2="65.0221354%" id="linearGradient-1">
+            <stop stop-color="#3250F6" offset="0%"></stop>
+            <stop stop-color="#2C70E5" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="674" height="300" rx="1"></rect>
+        <filter x="-2.1%" y="-2.7%" width="104.2%" height="110.7%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="12" operator="erode" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="10" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.294117647   0 0 0 0 0.305882353   0 0 0 0 0.325490196  0 0 0 0.4 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="41.663293%" y1="16.5585938%" x2="97.7645547%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#2476E8" offset="0%"></stop>
+            <stop stop-color="#3C47F4" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="38.7536387%" y1="13.4583333%" x2="14.2710464%" y2="83.0260417%" id="linearGradient-5">
+            <stop stop-color="#3C45F4" offset="0%"></stop>
+            <stop stop-color="#2378E9" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="71.9896976%" y1="0%" x2="100%" y2="100%" id="linearGradient-6">
+            <stop stop-color="#2E67EA" offset="0%"></stop>
+            <stop stop-color="#3B47F3" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="GOAT" transform="translate(-303.000000, -26.000000)">
+            <g id="content-header-blue" transform="translate(309.000000, 26.000000)">
+                <g id="card">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                </g>
+                <path d="M451.062576,8.4886439e-14 L673,-8.52651283e-14 C673.552285,-1.16760335e-13 674,0.44771525 674,1 L674,299 C674,299.552285 673.552285,300 673,300 L224.691222,300 C224.138937,300 223.691222,299.552285 223.691222,299 C223.691222,298.781529 223.762767,298.569069 223.89492,298.395101 L450.266274,0.395100774 C450.455364,0.146178356 450.749978,1.03974298e-13 451.062576,1.03916875e-13 Z" id="card" fill="url(#linearGradient-4)"></path>
+                <path d="M1,-2.74843707e-14 L60.5010065,2.6423308e-14 C60.8788119,2.63539063e-14 61.2243641,0.212922725 61.3942302,0.550387477 L211.395324,298.550387 C211.643638,299.043701 211.445027,299.64491 210.951713,299.893224 C210.812234,299.963432 210.658252,300 210.5021,300 L1,300 C0.44771525,300 6.76353751e-17,299.552285 0,299 L-9.99200722e-16,1 C-1.0668361e-15,0.44771525 0.44771525,-2.83202564e-14 1,-2.84217094e-14 Z" id="card" fill="url(#linearGradient-5)"></path>
+                <path d="M539.447199,2.83602762e-12 L673,-1.33004718e-13 C673.552285,-1.33106171e-13 674,0.44771525 674,1 L674,129.99719 C674,129.722216 673.886772,129.459374 673.686945,129.270481 L538.760254,1.72670925 C538.358904,1.34731991 538.341101,0.714405265 538.72049,0.31305483 C538.909383,0.113228028 539.172224,2.83722489e-12 539.447199,2.83106871e-12 Z" id="card" fill="url(#linearGradient-6)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

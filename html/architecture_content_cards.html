@@ -1,0 +1,42 @@
+<div class="card header-card green">
+	<h2>Content Cards</h2>
+	<p>Focussing content where and when you need it.</p>
+</div>
+<div class="card subheader-card">
+	<p><i>Cards</i> are a component we use to present information to the user in a way that is concentrated and simple. Key content for the application should be presented over top of a card. Each card should contain info that is contextual and similar in nature.</p>
+	<p>For more information on why cards are used to create a better user experience, <a href="https://www.nngroup.com/articles/cards-component/">check out this article by Page Laubheimer</a>.
+</div>
+<div class="card card">
+	<h3>Best Practice</h3>
+	<p>We realize there will be times when content placed on a negative space will be more appropriate, if grouped and organized to in a fashion that doesn't look messy. Use your best judgment, but realize that the priority should always be placed on focussing the users attention on the information they need to see, when they need to see it.</p>
+	<p><i>Cards</i> at the same level of depth should never be stacked on top of another card. It adds unnecessary complexity to the presentation of key information that the user needs to quickly understand.
+	<img src="../goat/media/architecture_cards_best.svg">
+	<h3>Card Layouts</h3>
+	<p>Content should always be the focus of the app. We design for professionals who can be very extremely busy and distracted a majority of the day. Searching to find key content within the application will only frustrate our practitioners.</p>
+	<p>We have outlined several examples of layouts that are consistently used throughout the application so that our practitioners can locate content effectively.</p>
+	<div class="cps-well cps-well__light">
+		<img src="../goat/media/architecture_cards_layouts.svg">
+		<h4>Flexible Focus</h4>
+		<p>This usually pertains to global features of the application like user settings or calendar. it enables the user to scan through several related pieces of content quickly.</p>
+		<h4>Fixed Focus</h4>
+		<p>This layout encourages a focus on a particular type of content like files or events. Generally the card grows vertically rather than sticking sequential cards.</p>
+		<h4>Flexible Masonry</h4>
+		<p>This allows the user to scan key information that is often differing in amounts of of content or detail. The height is flexible and auto fits to the fit the right padding and margin given.</p>
+		<h4>Fixed Masonry</h4>
+		<p>When there is finite information to be presented, then a fixed masonry layout is generally better than a flexible one. It enables more predictability and a stronger eye path.</p>
+	</div>
+</div>
+<div class="card card">
+	<h3>Card Depth</h3>
+	<div class="clearfix">
+		<img src="../goat/media/architecture_levels.svg" align="left" class="half">
+		<p>Depth can immediately supply a sense of hierarchy and understanding. We've chosen three different levels of depth to help facilitate movement across the z axis of the application.</p>
+		<p><i>L1</i> cards are used to be placed directly on top of the canvas or another card to break up and contain content.</p>
+		<p><i>L2</i> cards are used for smaller, transient items that are placed directly on another card. Examples are menus, selects, and pop-overs.</p>
+		<p><i>L3</i> is used for content that is transient and/or farthest away from the canvas - closest to the user. Examples use are modals, overlays, and toasts.</p>
+	</div>
+	<h3>Interactions and Layering</h3>
+	<p>As different elements become layered and interact with one another, it's important that we take the time to think about depth. If one element scrolls underneath another independently then the scrolling element should have a smaller depth that the element scrolling underneath.</p>
+	<p>Likewise, if an element is being presented overtop another element, that element should have a higher depth.</p>
+	<img src="../goat/media/architecture_cards_depth.svg">
+</div>

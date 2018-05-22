@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="860px" height="473px" viewBox="0 0 860 473" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>architecture_the_canvas</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="architecture_the_canvas" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#F4F5F8" x="62" y="48" width="771" height="403"></rect>
+        <text id="100%" font-family="SourceSansPro-SemiBold, Source Sans Pro" font-size="14" font-weight="500" fill="#3399FF">
+            <tspan x="430.84" y="36">100%</tspan>
+        </text>
+        <text id="#F4F5F8" font-family="SourceSansPro-SemiBold, Source Sans Pro" font-size="14" font-weight="500" fill="#52555A">
+            <tspan x="422.426" y="433">#F4F5F8</tspan>
+        </text>
+        <text id="100%" font-family="SourceSansPro-SemiBold, Source Sans Pro" font-size="14" font-weight="500" fill="#3399FF">
+            <tspan x="22.34" y="254">100%</tspan>
+        </text>
+        <path d="M39.5,218.5 L39.5,49.5" id="Line-2" stroke="#3399FF" stroke-linecap="square"></path>
+        <path d="M39.5,450.5 L39.5,281.5" id="Line-2" stroke="#3399FF" stroke-linecap="square"></path>
+        <path d="M402.5,31.5 L62.4985994,31.5" id="Line" stroke="#3399FF" stroke-linecap="square"></path>
+        <path d="M832.5,31.5 L490.5,31.5" id="Line" stroke="#3399FF" stroke-linecap="square"></path>
+    </g>
+</svg>

@@ -1,0 +1,46 @@
+<div class="card header-card green">
+	<h2>8 Pixel Grid</h2>
+	<p>Laying out UI quickly and consistently.</p>
+</div>
+<div class="card subheader-card">
+	<p>Canopy is designed using a soft 8 pixel grid system to ensure consistency and layout of UI components as well as facilitate typographic order and rhythm.</p>
+	<p>Using a grid is important in design to maintain consistency in the complex system, saves design and build time by eliminating decisions, and the 8 pixel measurement is used in all popular screen sizes and resolutions so it's a natural fit for any device.</p>
+</div>
+<div class="card">
+	<p><i>A few technical details before we dive into the grid system itself.</i></p>
+	<h3>Box Model</h3>
+	<p>The space between objects on the page are just as important as the object's content. Web based software products are built using HTML and CSS and that negative space is created using "The Box Model". The box model consists of four components starting from the outside moving inward: Margin, Border, Padding, and the object.
+	</p>
+	<img src="../goat/media/architecture_8_pixel_grid_box_model.svg">
+	<h4>Margin</h4>
+	<p>This adjustable space is the outermost space of the object that neighbors other objects.
+	</p>
+	<h4>Border</h4>
+	<p>Around the edges of any object is the border. This stroke is highly adjustable and most design tools allow the user to select an outer, inner or centered border so be aware of border settings and other spacing options when designing.</p>
+	<h4>Padding</h4>
+	<p>The padding of an object is the space between the object contents itself and the border.</p>
+	<p>All of these spacing components can be used in conjunction with each other to create directional space between the collection of objects on a page.</p>
+
+	<h3>What is a Point</h3>
+	<p>We use the terms "pixel" (px) and "point" (pt) interchangeably. A point is simply a measure of space that is dependent of screen resolution. Basically @1x resolution: 1pt = 1px.</p>
+	<p>The trick part is at higher resolutions (Retina displays etc.). At a @2x: 1pt = 4px due to the fact that resolution doubled on both X and Y axes making each pt 2px wide and 2px tall. You simple multiple this out for each higher resolution (@3x: 1pt = 9px).</p>
+	<img src="../goat/media/architecture_1pt.svg">
+	<p>All Canopy designs should be designed @1x (at a baseline 1px grid) so that designs can easily be scaled to other screen resolutions. Many design tools (Sketch, Figma, etc.) allow you to export a @1px design to any screen resolution needed.</p>
+</div>
+<div class="card">
+	<h3>The Soft Pixel Grid</h3>
+	<p>Simply use multiples of 8 to define all spacing, widths, heights, margins, font size, line height, or any measurable dimension of an object.</p>
+	<p>We use what is called a "soft grid", meaning the individual elements are positioned relative to each other. This is different from a "hard grid" where elements are placed relative to the larger container.</p>
+	<p>Use of the soft grid has a few benefits; allows for freedom of movement and it's less restrictive by nature, also when it comes time to code up the UI the grid basically becomes irrelevant. The hard grid method requires more design and coding overhead to get working with it. Simply ensuring that your spacing is set to multiples of 8 can quickly go along way to making the U layout clean and consistent.</p>
+	<h4>Best Practices</h4>
+	<ul>
+		<li>Use the "snap to grid" feature in your design tool to make moving elements easier. This allows you to not get caught on a half pixel or odd pixel space. A really sweet plugin for Sketch called "<a href="https://nudgepushshove.com/"> Nudge, Push, Shove</a>" can be used to define three pixel sizes for nudging your elements with the arrow keys: nudge (1px), push (8px), shove (16px).</li>
+		<li>Set up your design tools pixel grid to 4 and 8px grid with 16 or 24px being your thicker lines. This allows you to easily check your objects and spacing.</li>
+		<li>When coding, setting the root (html or body) font size to 16px you can then easily use .5rem increment to layout your 8 pixel layouts. Using this method, instead of setting an H2 to a 24px font size, you can use 2.4rem.</li>
+	</ul>
+</div>
+
+
+
+
+
