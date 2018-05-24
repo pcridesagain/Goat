@@ -389,6 +389,11 @@
   height: 0px;
 }
 
+.disabled{
+  opacity: .3;
+  
+}
+
 img{
   width: 100%;
 }
