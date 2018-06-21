@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="384px" height="109px" viewBox="0 0 384 109" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 28 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="372" height="97"></rect>
+        <filter x="-2.6%" y="-8.8%" width="105.1%" height="119.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.285920516 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="0" y="0" width="90" height="32" rx="5"></rect>
+        <filter x="-7.2%" y="-17.2%" width="114.4%" height="140.6%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.26 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Buttons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-742.000000, -2751.000000)" id="Group-46">
+            <g transform="translate(392.000000, 1572.000000)">
+                <g id="Group-41" transform="translate(32.000000, 1138.000000)">
+                    <g id="Group-28-Copy" transform="translate(324.000000, 46.000000)">
+                        <g id="Rectangle-6-Copy-5">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#FAFAFC" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                        <g id="Group-13" transform="translate(111.000000, 24.000000)">
+                            <g id="2--Secondary/1--resting" transform="translate(24.000000, 13.000000)">
+                                <g id="Background-[8-16;-w&gt;=72]">
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                                    <use fill="#F4F4F4" fill-rule="evenodd" xlink:href="#path-3"></use>
+                                </g>
+                                <text id="Text" font-family="Asap-Bold, Asap" font-size="14" font-weight="bold" line-spacing="16" fill="#777777">
+                                    <tspan x="24" y="22">Button</tspan>
+                                </text>
+                            </g>
+                            <path d="M123,13 L123,45" id="Line" stroke="#3399FF" stroke-linecap="square"></path>
+                            <path id="Line-decoration-1" d="M126,13 L120,13" stroke="#3399FF" stroke-linecap="square"></path>
+                            <path id="Line-decoration-2" d="M126,45 L120,45" stroke="#3399FF" stroke-linecap="square"></path>
+                            <text id="32px" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="12" font-weight="normal" line-spacing="16" fill="#3399FF">
+                                <tspan x="126" y="33">32px</tspan>
+                            </text>
+                            <text id="24px" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="12" font-weight="normal" line-spacing="16" fill="#FF345E">
+                                <tspan x="90" y="24">24px</tspan>
+                            </text>
+                            <text id="24px-copy" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="12" font-weight="normal" line-spacing="16" fill="#00BF4B">
+                                <tspan x="0" y="45">24px</tspan>
+                            </text>
+                            <path d="M90,31 L114,31" id="Line-3" stroke="#FF345E" stroke-linecap="square"></path>
+                            <path id="Line-3-decoration-1" d="M90,28 L90,34" stroke="#FF345E" stroke-linecap="square"></path>
+                            <path id="Line-3-decoration-2" d="M114,28 L114,34" stroke="#FF345E" stroke-linecap="square"></path>
+                            <path d="M0,30 L24,30" id="Line-3-Copy" stroke="#00BF4B" stroke-linecap="square"></path>
+                            <path id="Line-3-Copy-decoration-1" d="M0,27 L0,33" stroke="#00BF4B" stroke-linecap="square"></path>
+                            <path id="Line-3-Copy-decoration-2" d="M24,27 L24,33" stroke="#00BF4B" stroke-linecap="square"></path>
+                            <path d="M29,18 C26.2385763,18 24,15.7614237 24,13" id="Rectangle-3" stroke="#777777" stroke-linecap="round" transform="translate(26.500000, 15.500000) rotate(90.000000) translate(-26.500000, -15.500000) "></path>
+                            <text id="5px" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="12" font-weight="normal" fill="#777777">
+                                <tspan x="5" y="12">5px</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

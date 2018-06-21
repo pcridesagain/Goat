@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="239px" height="112px" viewBox="0 0 239 112" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="227" height="100"></rect>
+        <filter x="-4.2%" y="-8.5%" width="108.4%" height="119.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.285920516 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="0" y="0" width="112" height="32" rx="5"></rect>
+        <filter x="-5.8%" y="-17.2%" width="111.6%" height="140.6%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.26 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Buttons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-888.000000, -706.000000)" id="Group-47">
+            <g transform="translate(392.000000, 410.000000)">
+                <g id="Group-7" transform="translate(32.000000, 268.000000)">
+                    <g id="Group-3" transform="translate(470.000000, 33.000000)">
+                        <g id="Rectangle-6-Copy-2">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#E9E9E9" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                        <g id="2--Secondary/1--resting" transform="translate(58.000000, 34.000000)">
+                            <g id="Background-[8-16;-w&gt;=72]">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                                <use fill="#F4F4F4" fill-rule="evenodd" xlink:href="#path-3"></use>
+                            </g>
+                            <text id="Text" font-family="Asap-Bold, Asap" font-size="14" font-weight="bold" line-spacing="16" fill="#777777">
+                                <tspan x="35" y="22">Button</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

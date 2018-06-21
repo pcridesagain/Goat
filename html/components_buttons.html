@@ -2,98 +2,179 @@
 	<h2>Buttons</h2>
 </div>
 <div class="card subheader-card">
+	<h3>Purpose/Usage</h3>
 	<p>Buttons make common actions immediately visible and easy to perform with one click or tap.</p>
 </div>
 
 <div class="card">
-<h4>TYPES</h4>
-<ul>
-<li>Global Add: Used to add content to canopy</li>
-<li>Primary buttons: Primary buttons should be the single most important action on the page.</li>
-<li>Secondary buttons: Secondary buttons should be used for common actions when a primary button is present or can be used for a primary action when less emphasis is needed in the view.</li>
-<li>Tertiary buttons: A tertiary button can be used for multiple actions in a view when primary and secondary actions are already taken or when an action is needed that has low emphasis.</li>
-<li>Flat buttons: Flat buttons can be used as an alternative to primary or secondary buttons when needed for design aesthetic purposes or when primary and secondary buttons are both present.</li>
-<li>Button with icon: An icon can be added to any button to create more affordance to the action.</li>
-<li>Icon button: An icon button is used when no text is needed for the action.</li>
-</ul>
+	<h3>Types</h3>
+
+	<div class="clearfix">
+		<div class="left fifty">
+			<h4>Primary Button</h4>
+			<p>Primary buttons should be the single most important action on the page.</p>
+		</div>
+		<img src="../goat/media/buttons/component_buttons_primary.svg" class="right button">
+	</div>
+
+	<div class="clearfix">
+		<div class="left fifty">
+			<h4>Secondary Button</h4>
+			<p>Secondary buttons should be used for common actions when a primary button is present or can be used for a primary action when less emphasis is needed in the view.</p>
+		</div>
+		<img src="../goat/media/buttons/component_buttons_secondary.svg" class="right button">
+	</div>
+
+	<div class="clearfix">
+		<div class="left fifty">
+			<h4>Tertiary Button</h4>
+			<p>A tertiary button can be used for multiple actions in a view when primary and secondary actions are already taken or when an action is needed that has low emphasis.</p>
+		</div>
+		<img src="../goat/media/buttons/component_buttons_tertiary.svg" class="right button">
+	</div>
+
+	<div class="clearfix">
+		<div class="left fifty">
+			<h4>Flat Button</h4>
+			<p>Flat buttons can be used as an alternative to primary or secondary buttons when needed for design aesthetic purposes or when primary and secondary buttons are both present.</p>
+		</div>
+		<img src="../goat/media/buttons/component_buttons_flat.svg" class="right button">
+	</div>
+
+	<div class="clearfix">
+		<div class="left fifty">
+			<h4>Icon Button</h4>
+			<p>An icon button is used when no text is needed for the action.</p>
+		</div>
+		<img src="../goat/media/buttons/component_buttons_icon.svg" class="right button">
+	</div>
+
+	<div class="clearfix">
+		<div class="left fifty">
+			<h4>Global Add Button</h4>
+			<p>Used to add content to Canopy out of context to minimize distraction.</p>
+		</div>
+		<img src="../goat/media/buttons/component_buttons_globaladd.svg" class="right button">
+	</div>
+</div>
+
+
+<div class="card">
+	<h3>GUIDELINES</h3>
+	<h4>Placement</h4>
+	<ul>
+	<li>In a <i>page view, overlay or preview</i>, buttons should be placed in the upper right hand corner.</li>
+	<li>In a <i>modal or drawer</i> buttons should be place in the bottom left hand corner.</li>
+	<li>In <i>cards</i>, buttons can be placed upper right or lower left depending on the use case.</li>
+	<li>Buttons should always be placed on cards, never floating on the canvas.</li>
+	</ul>
+	<h4>Content</h4>
+	<span>The content of the buttons should:</span>
+	<ul>
+	<li>Be human and relatable</li>
+	<li>Be clear and concise</li>
+	<li>Convey the actions expected ('<i>Add</i>' or '<i>Add Contact</i>' = GOOD  '<i>New</i>'' = BAD)</li>
+	<li>Be written in "Title Case", except for "cancel" buttons</li>
+	<li>Not have labels written in ALL CAPS</li>
+	<li>Have labels with 3 words or less</li>
+	</ul>
+	<br>
+	<div>
+		<img src="../goat/media/thumbsup.svg" class="icon_good">
+		<div class="exp_good">
+			<img src="../goat/media/buttons/example_globaladd.svg">
+			<img src="../goat/media/buttons/example_modalbtn.svg">
+		</div>
+	</div>
+
+	<div>
+		<img src="../goat/media/thumbsdown.svg" class="icon_bad">
+		<div class="exp_bad">
+			<img src="../goat/media/buttons/example_floatedbtn.svg">
+		</div>
+	</div>
+
+	<h4>Sizing</h4>
+
+	<div class="clearfix">
+		<div class="left fifty">
+			<h4>Primary + Secondary</h4>
+			<div>Corner radius: <span class="highlight_dark_grey">5px</span></div>
+			<div>Height: <span class="highlight_blue">32px</span></div>
+			<div>Horizontal padding: <span class="highlight_mandy">24px</span></div>
+			<div>Horizontal margin: <span class="highlight_green">24px</span></div>
+			<div>Width: <span class="highlight_grey">auto</span></div>
+			<div>Font-family: <span class="highlight_grey">Asap</span></div>
+			<div>Font-size: <span class="highlight_grey">16px</span></div>
+			<div>Weight (semibold): <span class="highlight_grey">600</span></div>
+		</div>
+		<img src="../goat/media/buttons/sizing_primary.svg" class="right sizing">
+	</div>
+
+	<div class="clearfix">
+		<div class="left fifty">
+			<h4>Flat + Tertiary</h4>
+			<div>Corner radius: <span class="highlight_dark_grey">5px</span></div>
+			<div>Height: <span class="highlight_blue">32px</span></div>
+			<div>Horizontal padding: <span class="highlight_mandy">12px</span></div>
+			<div>Horizontal margin: <span class="highlight_green">24px</span></div>
+			<div>Width: <span class="highlight_grey">auto</span></div>
+			<div>Font-family: <span class="highlight_grey">Asap</span></div>
+			<div>Font-size: <span class="highlight_grey">16px</span></div>
+			<div>Weight (semibold): <span class="highlight_grey">600</span></div>
+		</div>
+		<img src="../goat/media/buttons/sizing_flat.svg" class="right sizing">
+	</div>
+
+	<div class="clearfix">
+		<div class="left fifty">
+			<h4>Icon</h4>
+			<div>Corner radius: <span class="highlight_dark_grey">5px</span></div>
+			<div>Height: <span class="highlight_blue">24px</span></div>
+			<div>Width: <span class="highlight_grey">24px</span></div>
+		</div>
+		<img src="../goat/media/buttons/sizing_icon.svg" class="right sizing">
+	</div>
+
+<h4>Typography</h4>
+<span>Font-Family: ASAP</span><br>
+<span>Font-Size: 14px</span><br>
+<span>Color: Cool Gray (#52555A) <div class="color_chip cool_gray"></div> or Canopy Green (#00BF4B) <div class="color_chip canopy_green"></div></span><br>
+<span>Weight: <span class="medium">SemiBold/Medium (600)</span></span><br>
 </div>
 
 <div class="card">
-<h4>GUIDELINES</h4>
-<ul>
+	<h3>BEST PRACTICES</h3>
+	<ul>
+		<li>For "cancel" action within modals, flat buttons are typically used.</li>
+		<li>Icons buttons are generally used for mensu and editing actions.</li>
+		<li>Icon button combos: no margin, 16px margin, 24px margin are all acceptable</li>
+		<li>Never use links for actions, links are used for navigation. Use flat or tertiasy buttons if you feel the urge to use a link for an action.</li>
+	</ul>
 
-<li>Placement</li>
-<ul>
-<li>In a page view, overlay or preview, buttons should be placed in the upper right hand corner</li>
-<li>Wrong: Left hand modal/dialog/drawer placement</li>
-<li>In a modal or drawer buttons should be placed in the bottom left hand corner</li>
-<li>Wrong: Right hand modal/dialog/drawer placement</li>
-<li>In cards, buttons can be placed upper right or lower left depending on the use case.</li>
-<li>Buttons should be on cards</li>
-<li>Wrong: Floating on canvas</li>
-</ul>
-<li>Sizing</li>
-<ul>
-<li><b>Primary and Secondary buttons:</b></li>
-<li>Corner radius: 5px 
-Height: 32px
-Horizontal padding: 24px
-Horizontal margin: 24px 
-Text: 16px, semibold 600
-Width: Auto
-</li>
-<li><b>Flat and Tertiary:</b> </li>
-<li>Height: 32px 
-Horizontal padding: 12px 
-Horizontal margin: 24px 
-Corner radius: 5px 
-Width: Auto
-Text: 16px, semibold 600
-</li>
+	<div class="exp_small">
+		<img src="../goat/media/thumbsup.svg" class="icon_good">
+		<div class="exp_good">
+			<img src="../goat/media/buttons/example_good_create_btn.svg">
+		</div>
+	</div>
 
-<li><b>Icon buttons:</b> </li>
-<li>Height: 24px 
-5px border radius.
-Width: 24px</li>
-</ul>
-<li>Content</li>
-<ul>
-<li>Human and relatable</li>
-<li>Clear and concise</li>
-<li>Convey the actions expected (Add or add contact = good  New = bad)</li>
-<li>Button labels should be in Title Case,  except for the CANCEL button</li>
-<li>No labels in all CAPS</li>
-<li>Labels should not be more than 3 words</li>
-</ul>
-</ul>
-<li>Type</li>
-<ul>
-<li>Family: ASAP</li>
-<li>Weight: 600</li>
-<li>Size: 16px</li>
-</ul>
-</ul>
-</ul>
-</div>
+	<div class="exp_small">
+		<img src="../goat/media/thumbsdown.svg" class="icon_good">
+		<div class="exp_bad">
+			<img src="../goat/media/buttons/example_bad_create_btn.svg">
+		</div>
+	</div>
 
-<div class="card">
-<h4>BEST PRACTICES</h4>
-<ul>
-<li>When using multiple buttons, the following combinations are acceptable. Tertiary buttons shouldn’t be combined.</li>
-<ul>
-<li>Primary and Secondary, Primary and Flat, Secondary and Flat, Primary and Icon</li>
-<li>Flat + icon? (add credit + kabob menu as an example)</li>
-</ul>
-<li>Flat buttons are typically used for “cancel” action within modals.</li>
-<li>Icon buttons are generally used for menus and editing actions.</li>
-<li>Icon button combos: no margin, 16px margin, 24px margin.</li>
-<li>Remember to consider whether an action would fit in the Global Add Button so that a user can create content from anywhere within the product</li>
-<li>Wrong: never use links for actions, links are used for navigation</li>
-</ul>
+	<h4>Button Combos</h4>
+	<p>When using multiple buttons, the following combinations are acceptable.  Tertiary buttons shouldn’t be combined.</p>
+	<div style="text-align: center">
+		<img style="width: 75%; padding: 24px 0;" src="../goat/media/buttons/exp_btn_groups.svg">
+	</div>
 </div>
 
 <div class="card">
 <h4>RELATED COMPONENTS</h4>
-Link navigation
+<a href="http://localhost/~patrickcox/Goat/#components_navigation">Linked Navigation</a>
 
 </div>

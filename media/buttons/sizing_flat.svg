@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="384px" height="109px" viewBox="0 0 384 109" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 39</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="372" height="97"></rect>
+        <filter x="-2.6%" y="-8.8%" width="105.1%" height="119.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.285920516 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Buttons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-747.000000, -3012.000000)" id="Group-46">
+            <g transform="translate(392.000000, 1572.000000)">
+                <g id="Group-25" transform="translate(32.000000, 1405.000000)">
+                    <g id="Group-39" transform="translate(329.000000, 40.000000)">
+                        <g id="Rectangle-6-Copy-14">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#FAFAFC" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                        <g id="Group-38" transform="translate(123.000000, 25.000000)">
+                            <g id="Group-11" transform="translate(24.000000, 13.000000)">
+                                <rect id="Background-[8-16]" fill-opacity="0" fill="#FFFFFF" x="0" y="0" width="66" height="32" rx="5"></rect>
+                                <text id="Text" font-family="Asap-Bold, Asap" font-size="14" font-weight="bold" line-spacing="16" fill="#00BF4B">
+                                    <tspan x="12" y="22">Button</tspan>
+                                </text>
+                            </g>
+                            <path d="M99,13 L99,45" id="Line-Copy" stroke="#3399FF" stroke-linecap="square"></path>
+                            <path id="Line-Copy-decoration-1" d="M102,13 L96,13" stroke="#3399FF" stroke-linecap="square"></path>
+                            <path id="Line-Copy-decoration-2" d="M102,45 L96,45" stroke="#3399FF" stroke-linecap="square"></path>
+                            <text id="32px-copy" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="12" font-weight="normal" line-spacing="16" fill="#3399FF">
+                                <tspan x="102" y="33">32px</tspan>
+                            </text>
+                            <text id="12px" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="12" font-weight="normal" line-spacing="16" fill="#FF345E">
+                                <tspan x="72" y="24">12px</tspan>
+                            </text>
+                            <path d="M78,30 L90,30" id="Line-3-Copy-3" stroke="#FF345E" stroke-linecap="square"></path>
+                            <path id="Line-3-Copy-3-decoration-1" d="M78,27 L78,33" stroke="#FF345E" stroke-linecap="square"></path>
+                            <path id="Line-3-Copy-3-decoration-2" d="M90,27 L90,33" stroke="#FF345E" stroke-linecap="square"></path>
+                            <text id="24px-copy-2" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="12" font-weight="normal" line-spacing="16" fill="#00BF4B">
+                                <tspan x="0" y="44">24px</tspan>
+                            </text>
+                            <path d="M0,29 L24,29" id="Line-3-Copy-2" stroke="#00BF4B" stroke-linecap="square"></path>
+                            <path id="Line-3-Copy-2-decoration-1" d="M0,26 L0,32" stroke="#00BF4B" stroke-linecap="square"></path>
+                            <path id="Line-3-Copy-2-decoration-2" d="M24,26 L24,32" stroke="#00BF4B" stroke-linecap="square"></path>
+                            <path d="M29,18 C26.2385763,18 24,15.7614237 24,13" id="Rectangle-3-Copy" stroke="#777777" stroke-linecap="round" transform="translate(26.500000, 15.500000) rotate(90.000000) translate(-26.500000, -15.500000) "></path>
+                            <text id="5px-copy" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="12" font-weight="normal" fill="#777777">
+                                <tspan x="5" y="12">5px</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

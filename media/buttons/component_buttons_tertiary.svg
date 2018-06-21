@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="239px" height="112px" viewBox="0 0 239 112" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="227" height="100"></rect>
+        <filter x="-4.2%" y="-8.5%" width="108.4%" height="119.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.285920516 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Buttons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-888.000000, -879.000000)" id="Group-47">
+            <g transform="translate(392.000000, 410.000000)">
+                <g id="Group-9" transform="translate(32.000000, 441.000000)">
+                    <g id="Group-4" transform="translate(470.000000, 33.000000)">
+                        <g id="Rectangle-6-Copy-4">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill-opacity="0.479308197" fill="#F4F5F8" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                        <g id="4-Tertiary/1--resting" transform="translate(58.000000, 42.000000)">
+                            <rect id="Background-[0]" fill-opacity="0" fill="#FFFFFF" fill-rule="evenodd" x="0" y="0" width="112" height="16"></rect>
+                            <text id="Text" font-family="Asap-Regular, Asap" font-size="14" font-weight="normal" line-spacing="16" fill="#777777">
+                                <tspan x="35" y="14">Button</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

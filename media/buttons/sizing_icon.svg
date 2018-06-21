@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="384px" height="109px" viewBox="0 0 384 109" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 37</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="372" height="97"></rect>
+        <filter x="-2.6%" y="-8.8%" width="105.1%" height="119.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.285920516 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M5,6 L8,6 L8,8 L5,8 L5,11 L3,11 L3,8 L0,8 L0,6 L3,6 L3,3 L5,3 L5,6 Z M13,10 C16.829875,10 19.937,11.799 20,14.031 L20,15.962 L6,15.962 L6.00525,14.031 C6.063,11.799 9.170125,10 13,10 Z M13,8 C10.790861,8 9,6.209139 9,4 C9,1.790861 10.790861,0 13,0 C15.209139,0 17,1.790861 17,4 C17,6.209139 15.209139,8 13,8 Z" id="path-3"></path>
+    </defs>
+    <g id="Buttons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-748.000000, -3276.000000)" id="Group-46">
+            <g transform="translate(392.000000, 1572.000000)">
+                <g id="Group-40" transform="translate(32.000000, 1673.000000)">
+                    <g id="Group-37" transform="translate(330.000000, 36.000000)">
+                        <g id="Rectangle-6-Copy-17">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#FAFAFC" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                        <g id="Group-36" transform="translate(147.000000, 30.000000)">
+                            <g id="Group-12" transform="translate(51.000000, 13.000000)">
+                                <path d="M1,0 L1,24" id="Line-Copy-2" stroke="#3399FF" stroke-linecap="square"></path>
+                                <path id="Line-Copy-2-decoration-1" d="M4,-1.8369702e-16 L-2,1.8369702e-16" stroke="#3399FF" stroke-linecap="square"></path>
+                                <path id="Line-Copy-2-decoration-2" d="M4,24 L-2,24" stroke="#3399FF" stroke-linecap="square"></path>
+                                <text id="24px" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="12" font-weight="normal" line-spacing="16" fill="#3399FF">
+                                    <tspan x="4" y="16">24px</tspan>
+                                </text>
+                            </g>
+                            <path d="M24,18 C21.2385763,18 19,15.7614237 19,13" id="Rectangle-3-Copy-2" stroke="#777777" stroke-linecap="round" transform="translate(21.500000, 15.500000) rotate(90.000000) translate(-21.500000, -15.500000) "></path>
+                            <text id="5px-copy-2" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="12" font-weight="normal" fill="#777777">
+                                <tspan x="0" y="12">5px</tspan>
+                            </text>
+                            <g id="Icon/app/add-person" transform="translate(21.000000, 17.000000)">
+                                <mask id="mask-4" fill="white">
+                                    <use xlink:href="#path-3"></use>
+                                </mask>
+                                <use id="Mask" fill="#777777" xlink:href="#path-3"></use>
+                                <g id="02-Monsoon" mask="url(#mask-4)" fill="#777777">
+                                    <g transform="translate(-2.000000, -4.000000)" id="Monsoon">
+                                        <rect x="0" y="0" width="24" height="24"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
