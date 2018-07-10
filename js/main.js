@@ -1,9 +1,14 @@
-// $( document ).ready(function() {
-//     var hash = window.location.hash;
-//     alert(hash);
-//     $("[id=" + hash + "]").addClass('active');
 
-// });
+$(document).ready(function() {
+      // bind change event to select
+      $('#dynamic_select').on('change', function () {
+          var url = $(this).val(); // get selected value
+          if (url) { // require a URL
+              window.location = url; // redirect
+          }
+          return false;
+      });
+    });
 
 $(document).ready(function() {
   var hash = window.location.hash;
@@ -24,6 +29,23 @@ $(document).ready(function() {
   }
 });
 
+
+//dropdown
+$(document).on('click', '.dropbtn', function() {
+  $('.dropdown-content').show();
+});
+
+$(document).on('click', '.container_select', function() {
+  var show = $(this).data('show');
+  $(show).removeClass("hide").siblings().addClass("hide");
+  $('.dropdown-content').hide();
+});
+
+
+
+
+
+
 // accordion
     $('.accordion').click(function(){
       if( $(this).hasClass('active') ){
@@ -37,6 +59,7 @@ $(document).ready(function() {
         $(this).next().addClass('show');
       }
     })
+
 
 
 // tabs select
@@ -87,6 +110,10 @@ $(document).ready(function() {
             }
           }
         };
+
+
+    
+
 
 
 

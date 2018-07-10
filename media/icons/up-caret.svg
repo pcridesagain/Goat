@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="8px" viewBox="0 0 13 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/app/up-caret</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M11.4114577,12.6809559 L15.0928932,8.99952043 L15.8,8.29241365 L17.2142136,9.70662721 L16.5071068,10.413734 L12.8119494,14.1088914 L12.8141696,14.1111468 L12.5280228,14.392818 L12.113734,14.8071068 L11.4066272,15.5142136 L11.3977881,15.5053745 L11.3888532,15.5141696 L10.6873418,14.8015114 L10.4046967,14.512283 L9.99241365,14.1 L9.99715976,14.0952539 L6.39396898,10.4081386 L5.69245757,9.69548039 L7.11777403,8.29245758 L7.81928543,9.00511581 L11.4114577,12.6809559 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/app/up-caret" transform="translate(-5.000000, -8.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#777777" fill-rule="nonzero" xlink:href="#path-1"></use>
+            <g id="02-Monsoon" mask="url(#mask-2)" fill="#777777" fill-rule="evenodd">
+                <rect id="Monsoon" x="0" y="0" width="24" height="24"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="422px" height="392px" viewBox="0 0 422 392" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>example_l3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="410" height="380"></rect>
+        <filter x="-2.3%" y="-2.2%" width="104.6%" height="105.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.285920516 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="0" y="0" width="364.705882" height="300" rx="8"></rect>
+        <filter x="-13.2%" y="-10.7%" width="126.3%" height="132.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feMorphology radius="11" operator="erode" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="16" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="25" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.294117647   0 0 0 0 0.305882353   0 0 0 0 0.325490196  0 0 0 0.4 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Containers" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Cards" transform="translate(-696.000000, -1658.000000)">
+            <g id="example_l3" transform="translate(702.000000, 1663.000000)">
+                <g id="Rectangle-6-Copy-2">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill-opacity="0.479308197" fill="#F4F5F8" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="1-card/l3" transform="translate(22.941176, 38.000000)">
+                    <g id="card">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        <rect stroke="#E9E9E9" stroke-width="1" fill="#FFFFFF" fill-rule="evenodd" x="-0.5" y="-0.5" width="365.705882" height="301" rx="8"></rect>
+                    </g>
+                </g>
+                <path d="M379,38 C383.418278,38 387,41.581722 387,46" id="card" stroke="#52555A" stroke-width="2" fill="#FFFFFF"></path>
+                <text id="8px" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="12" font-weight="normal" fill="#52555A">
+                    <tspan x="363" y="50">8px</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
