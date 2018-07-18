@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="709px" height="432px" viewBox="0 0 709 432" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>example_modal</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="697" height="420"></rect>
+        <filter x="-1.4%" y="-2.0%" width="102.7%" height="104.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.285920516 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="0" y="0" width="560" height="300" rx="8"></rect>
+        <filter x="-8.6%" y="-10.7%" width="117.1%" height="132.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feMorphology radius="11" operator="erode" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="16" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="25" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.294117647   0 0 0 0 0.305882353   0 0 0 0 0.325490196  0 0 0 0.4 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M0,0 L560,0 L560,59.0046849 C560,61.7635213 557.758331,64 555.00925,64 L4.99075039,64 C2.23443506,64 0,61.7597326 0,59.0046849 L0,0 Z" id="path-5"></path>
+        <filter x="-0.1%" y="-0.8%" width="100.2%" height="101.6%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.913725495   0 0 0 0 0.913725495   0 0 0 0 0.913725495  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <rect id="path-7" x="0" y="0" width="74" height="32" rx="5"></rect>
+        <filter x="-8.8%" y="-17.2%" width="117.6%" height="140.6%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.26 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Containers" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Modals" transform="translate(-417.000000, -709.000000)">
+            <g id="example_modal" transform="translate(423.000000, 714.000000)">
+                <rect id="Rectangle-26" fill-opacity="0.24" fill="#52555A" x="0" y="0" width="697" height="420"></rect>
+                <g id="Rectangle-6-Copy">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill-opacity="0.479308197" fill="#F4F5F8" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="3-Modal/1-card" transform="translate(60.000000, 39.000000)">
+                    <g id="card/l3">
+                        <g id="card">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                            <rect stroke="#E9E9E9" stroke-width="1" fill="#FFFFFF" fill-rule="evenodd" x="-0.5" y="-0.5" width="561" height="301" rx="8"></rect>
+                        </g>
+                    </g>
+                </g>
+                <g id="3-Modal/3-header" transform="translate(60.000000, 39.000000)">
+                    <g id="Rectangle-4" transform="translate(280.000000, 32.000000) scale(1, -1) translate(-280.000000, -32.000000) ">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                    </g>
+                    <g id="Line-+-Line-2" transform="translate(522.000000, 24.000000)" fill="#777777" fill-rule="nonzero">
+                        <g>
+                            <polygon id="Line" points="12.9458819 14.463961 13.7073815 15.1710678 15.2303807 13.7568543 14.4688811 13.0497475 2.28488734 1.73603897 1.52338773 1.02893219 0.0003885103 2.44314575 0.761888121 3.15025253"></polygon>
+                            <polygon id="Line-2" points="0.80835277 12.9497475 0.0468531599 13.6568542 1.56985238 15.0710678 2.33135199 14.363961 14.5153458 3.05025253 15.2768454 2.34314575 13.7538461 0.928932188 12.9923465 1.63603897"></polygon>
+                        </g>
+                    </g>
+                    <text id="Title-of-modal" font-family="Asap-Regular, Asap" font-size="24" font-weight="normal" line-spacing="32" fill="#333333">
+                        <tspan x="24" y="40">Title of modal</tspan>
+                    </text>
+                </g>
+                <g id="3-Modal/4-footer" transform="translate(60.000000, 276.000000)">
+                    <path d="M0,0 L560,0 L560,56 C560,60.418278 556.418278,64 552,64 L8,64 C3.581722,64 5.41083001e-16,60.418278 0,56 L0,0 Z" id="Rectangle-30" fill="#FFFFFF"></path>
+                    <g id="Button/primary/resting" transform="translate(24.000000, 17.000000)">
+                        <g>
+                            <g id="Rectangle">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                                <use fill="#00C144" fill-rule="evenodd" xlink:href="#path-7"></use>
+                            </g>
+                            <text id="Button" font-family="Asap-Bold, Asap" font-size="14" font-weight="bold" line-spacing="21" fill="#FFFFFF">
+                                <tspan x="16.35" y="19">Create</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="Button/flat/resting" transform="translate(114.000000, 17.000000)">
+                        <path d="M0,4.0042577 C0,1.79276724 1.79255726,-2.1757531e-15 4.00479924,-4.76409883e-16 L69.9952008,5.02144014e-14 C72.2069903,5.19133971e-14 74,1.78902751 74,4.0042577 L74,27.9957423 C74,30.2072328 72.2074427,32 69.9952008,32 L4.00479924,32 C1.7930097,32 0,30.2109725 0,27.9957423 L0,4.0042577 Z" id="Background-transparent" fill-opacity="0" fill="#FFFFFF" fill-rule="evenodd"></path>
+                        <text id="Button" font-family="Asap-Bold, Asap" font-size="14" font-weight="bold" line-spacing="21" fill="#00BF4B">
+                            <tspan x="15.706" y="19">Cancel</tspan>
+                        </text>
+                    </g>
+                    <rect id="Rectangle-31" fill="#E9E9E9" x="0" y="1" width="560" height="1"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
