@@ -1,3 +1,75 @@
 <div class="card">
 	<h3>Drawers</h3>
+	<p>Small transient view for gathering user information that does not force user focus, like a modal. Can be used to gather information both in context and out of context. The user can still interact with page views below drawer or with the drawer itself. </p>
+	<div>
+	<p>There are two themes of drawers, light and dark. Select the proper drawer based on visual hierarchy and focus that is needed.</p>
+	<div class="clearfix">
+		<div class="left fifty">
+			<h4>Light Theme</h4>
+			<p>The light theme was designed not to break the visual hierarchy of the page and blend in more within the content. Use this drawer when you need less user focus or when the user might need to click to other views in Canopy.</p>
+		</div>
+		<img src="../goat/media/drawers/example_drawer_light.svg" class="right half">
+	</div>
+
+	<div class="clearfix">
+		<div class="left fifty">
+			<h4>Dark Theme</h4>
+			<p>The dark theme was designed to provide more focus without forcing the user to take direct action on the element (use modal or overlay for this).</p>
+		</div>
+		<img src="../goat/media/drawers/example_drawer_dark.svg" class="right half">
+	</div>
+	</div>
+</div>
+
+
+
+
+<div class="card clearfix">
+	<h3>Guidelines</h3>
+	<ul>
+		<li>Drawers can be triggered by the user or by the system. If the system needs to gather user input, the drawer should be used instead of a modal</li>
+		<li>A Drawer is made from an L3 card with no mask that slides in from the right side of the screen when triggered. It’s resting state is “offstage”</li>
+		<li>Max visual height of a drawer would be the screen height, you should always see the bottom of the card</li>
+	</ul>
+
+	<div>
+		<img src="../goat/media/thumbsup.svg" class="icon_good">
+		<div class="exp_good">
+			<img src="../goat/media/drawers/example_good_drawer.png">
+		</div>
+	</div>
+
+	<h4>Content</h4>
+	<ul>
+		<li>Headers should be used in all cases. Drawer headers do not have a bottom border, just a title and cancel “X”</li>
+		<li>Cancel “X” should always be present in the top right corner</li>
+		<li>A footer should always be used. There is no top border on footer. CTA is located in the bottom left. Modal CTA rules apply</li>
+	</ul>
+
+	<h4>Sizing</h4>
+
+		<ul>
+			<li>Width: 378px fixed</li>
+			<li>Padding: 24px</li>
+			<li>Border radius: 8px corner radius</li>
+			<li>Top margin: 16px (below the line of the primary navigation)</li>
+			<li>Right margin: 40px</li>
+			<li>Header text: 18px, 600 weight, Cool gray (#52555A) <div class="color_chip cool_gray"></div></li>
+			<li>DT Header: Bumble (#FFF) <div class="color_chip bumble"></li>
+		</ul>
+
+</div>
+
+<div class="card">
+	<h3>Best Practices</h3>
+	<ul>
+		<li>When the system needs to gather user data out of context use drawer instead of modal because it’s less disruptive to the user. For instance, when IRS e-services login expires or calendar login expires</li>
+		<li>Drawers only slide "on-stage" from the right of the browser, never the bottom, top, or left side</li>
+	</ul>
+</div>
+
+
+<div class="card">
+<h4>Related Components</h4>
+
 </div>

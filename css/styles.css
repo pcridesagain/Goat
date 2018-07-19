@@ -325,11 +325,14 @@
     }
 
     .exp_good, .exp_bad{
-      background: #F4F5F8;
+      background: #FFF;
       padding: 32px;
       border-top: 6px solid #00BF4B;
       border-radius: 5px;
       margin-top: 40px;
+      border-left: 1px solid #dfdfdf;
+      border-right: 1px solid #dfdfdf;
+      border-bottom: 1px solid #dfdfdf;
     }
 
     .exp_good img, .exp_bad img{

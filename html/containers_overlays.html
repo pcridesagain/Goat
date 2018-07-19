@@ -1,3 +1,53 @@
 <div class="card">
 	<h3>Overlays</h3>
+	<p>Larger, focused transient container used for gathering user input or interactions that does not navigate the user away from their current location. Overlays are used instead of a modal when more complex interactions are needed.</p>
+	<div>
+		<img src="../goat/media/overlays/example_overlay.svg">
+	</div>
+</div>
+
+
+
+
+<div class="card">
+	<h3>Guidelines</h3>
+	<ul>
+	<li>Overlays should be used when a single or multiple closing actions are needed. <i>Example: just a cancel or save, cancel and third action</i></li>
+	<li>L3 card should be used to contain content</li>
+	<li>A 40% opacity Cool Gray (#52555A) <div class="color_chip cool_gray"></div> page mask should cover the entire browser below the card for focus</li>
+	<li>Overlay should expand to fill the majority of the width or the page with a 24px margin around the entire browser view so mask can be seen. Height and width should always be fixed</li>
+	<li>Overlays should always have a header with no footer</li>
+	<li>CTA actions should be placed in the header on the right with the cancel button on the far right</li>
+	<li>There should not be horizontal scrolling inside of the overlay. If using a table, please use an inset table not a full card table</li>
+	<li>Clicking off the overlay onto the mask should not close the overlay, overlays should be closed using the cancel or another clear action</li>
+	</ul>
+
+	<div>
+		<img src="../goat/media/thumbsup.svg" class="icon_good">
+		<div class="exp_good">
+			<img src="../goat/media/overlays/example_good_overlay.png">
+		</div>
+	</div>
+
+	<h3>Sizing</h3>
+	<ul>
+		<li>Header has height of 64px</li>
+		<li>Header text is 24pt regular Cool Gray (#52555A) <div class="color_chip cool_gray"></div></li>
+	</ul>
+</div>
+
+<div class="card">
+	<h3>Best Practices</h3>
+	<ul>
+		<li>Place the top of the overlay 16px below the the primary navigation location so our practitioners don’t feel lost</li>
+		<li>The center area of the header can be used for content editing options or any tertiary options needed when interacting or adding and deleting content. Icon button bar should be used whenever possible to conserve space</li>
+		<li>Width and height should not be smaller to maintain the 24px margin on the browser</li>
+		<li>Do not user a modal footer with an overlay</li>
+	</ul>
+</div>
+
+
+<div class="card">
+<h4>Related Components</h4>
+
 </div>
